@@ -67,7 +67,7 @@ export default function Hero() {
       <div 
         ref={ghostBRef}
         className="absolute -right-20 top-1/2 -translate-y-1/2 text-[40vw] font-serif font-bold text-white leading-none pointer-events-none select-none opacity-5 z-0"
-        style={{ fontFamily: 'Playfair Display' }}
+        style={{ fontFamily: 'Cormorant Garamond' }}
       >
         B
       </div>

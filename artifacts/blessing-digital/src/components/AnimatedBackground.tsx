@@ -132,7 +132,7 @@ export default function AnimatedBackground() {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none"
-      style={{ zIndex: -1, background: '#0d0d0d' }}
+      style={{ zIndex: -1, background: '#2c3f68' }}
     />
   );
 }

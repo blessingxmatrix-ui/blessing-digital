@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import logoImg from '@assets/image_1781470521480.png';
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,17 +27,13 @@ export default function Navigation() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo('home')}>
-          <div className="relative w-8 h-8 flex items-center justify-center">
-            <svg viewBox="0 0 24 24" className="w-8 h-8 absolute top-0 left-0">
-              <defs>
-                <linearGradient id="crownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#d4af37" />
-                  <stop offset="100%" stopColor="#8B1A1A" />
-                </linearGradient>
-              </defs>
-              <path d="M2 10L6 4L12 8L18 4L22 10L19 18H5L2 10Z" fill="url(#crownGrad)" opacity="0.8" />
-            </svg>
-            <span className="font-serif font-bold text-2xl relative z-10 text-white leading-none tracking-tighter" style={{ marginTop: '4px' }}>B</span>
+          <div className="relative w-10 h-10 flex items-center justify-center">
+            <img
+              src={logoImg}
+              alt="Blessing Digital Logo"
+              className="w-10 h-10 object-contain"
+              style={{ filter: 'invert(1) brightness(1.1)' }}
+            />
           </div>
           <span className="font-serif font-semibold text-xl tracking-wide hidden sm:block">Blessing Digital</span>
         </div>
