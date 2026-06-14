@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "ldTe-BQHyv1UAUMlba29P"
+uri = "file://artifacts/blessing-digital/public/images/elite-barbers.png"
+type = "image"
+title = "Dark premium barbershop website mockup"
+
+[[generated]]
+id = "Kw4NFF6oIquQB2G2jbWg_"
+uri = "file://artifacts/blessing-digital/public/images/elite-restaurant.png"
+type = "image"
+title = "Elegant restaurant website mockup"
+
+[[generated]]
+id = "mI8x4jBh_S2i6vxuBWqO4"
+uri = "file://artifacts/blessing-digital/public/images/maison-elite.png"
+type = "image"
+title = "Luxury interior design website mockup"
+
+[[generated]]
+id = "NTBP9g-hCKi_-4NK-lZmJ"
+uri = "file://artifacts/blessing-digital/public/images/elite-retail.png"
+type = "image"
+title = "Premium e-commerce website mockup"
