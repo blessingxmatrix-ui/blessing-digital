@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import erCover from '@assets/image_1781522817861.png';
+import barberCover from '@assets/elite_barbers_cover.png';
 import erHero from '@assets/image_1781521837887.png';
 import erMenu1 from '@assets/image_1781521970346.png';
 import erMenu2 from '@assets/image_1781522027931.png';
@@ -92,11 +93,13 @@ export default function Portfolio() {
             </a>
           </div>
           <div className="lg:col-span-7 order-1 lg:order-2">
-            <div className="relative rounded-xl overflow-hidden shadow-2xl border border-white/5 bg-[#111] aspect-video">
+            <div className="relative rounded-xl overflow-hidden shadow-2xl border border-white/5 bg-white aspect-video flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B1A1A]/10 to-transparent z-10 pointer-events-none rounded-xl"></div>
-              <div className="w-full h-full flex items-center justify-center text-gray-600 font-mono text-sm">
-                <span>— Elite Barbers screenshots coming soon —</span>
-              </div>
+              <img
+                src={barberCover}
+                alt="Elite Barbers"
+                className="h-full w-full object-contain object-center"
+              />
             </div>
           </div>
         </div>
