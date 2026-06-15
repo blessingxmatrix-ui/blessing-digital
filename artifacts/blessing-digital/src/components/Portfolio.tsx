@@ -30,6 +30,21 @@ import retail3d      from '@assets/image_1781540794721.png';
 import retailAI      from '@assets/image_1781540825221.png';
 import retailExhibit from '@assets/image_1781540851769.png';
 
+// Maison Elite
+import maisonCover     from '@assets/image_1781543303345.png';
+import maisonHero      from '@assets/image_1781542163325.png';
+import maisonCollTitle from '@assets/e1895fcf-b9ac-41e3-b55e-23d29e6ca73d_1781542172011.png';
+import maisonColl1     from '@assets/image_1781542194557.png';
+import maisonColl2     from '@assets/image_1781542215304.png';
+import maisonMaster    from '@assets/image_1781542346158.png';
+import maisonImp       from '@assets/image_1781542382394.png';
+import maisonCraft     from '@assets/image_1781542414407.png';
+import maisonServices  from '@assets/image_1781542448541.png';
+import maisonClub      from '@assets/image_1781542473460.png';
+import maisonConsult   from '@assets/image_1781542521638.png';
+import maisonContact   from '@assets/image_1781542562944.png';
+import maisonFooter    from '@assets/image_1781542587790.png';
+
 gsap.registerPlugin(ScrollTrigger);
 
 /* ─── Slide data ────────────────────────────────────────────── */
@@ -52,8 +67,23 @@ const eliteRetailSlides = [
   { src: retailHero,    label: 'Kicks With No Limits' },
   { src: retailVault,   label: 'Vault Pass & Deal Simulator' },
   { src: retail3d,      label: '3D Colorway Customizer' },
-  { src: retailAI,     label: 'AI Style Matchmaker' },
+  { src: retailAI,      label: 'AI Style Matchmaker' },
   { src: retailExhibit, label: 'The Infinity Exhibit' },
+];
+
+const maisonEliteSlides = [
+  { src: maisonHero,      label: 'Hero — Haute Joaillerie' },
+  { src: maisonCollTitle, label: 'Signature Collections' },
+  { src: maisonColl1,     label: 'Diamond & Royal Gold' },
+  { src: maisonColl2,     label: 'Noir Élite & Platinum Prestige' },
+  { src: maisonMaster,    label: 'Featured Masterpiece' },
+  { src: maisonImp,       label: 'The Imperial Étoile' },
+  { src: maisonCraft,     label: 'The French Art of Creation' },
+  { src: maisonServices,  label: 'Exclusive Services' },
+  { src: maisonClub,      label: 'Private Club Invitation' },
+  { src: maisonConsult,   label: 'Inquire & Consult' },
+  { src: maisonContact,   label: 'Contact Form' },
+  { src: maisonFooter,    label: 'Footer' },
 ];
 
 /* ─── Page ──────────────────────────────────────────────────── */
@@ -135,8 +165,16 @@ export default function Portfolio() {
             testId="concept-card-elite-restaurant"
           />
 
-          {/* Maison Elite — coming soon */}
-          <ConceptCard title="Maison Elite" tags="Real Estate · Luxury" offset={40} />
+          <ProjectCard
+            cover={maisonCover}
+            title="Maison Élite"
+            tags="Haute Joaillerie · Luxury"
+            description="A bespoke high-jewellery house concept featuring 3D collections, masterpiece showcases & private appointment booking."
+            slideCount={maisonEliteSlides.length}
+            offset={40}
+            onOpen={() => openLightbox(maisonEliteSlides, 'Maison Élite')}
+            testId="concept-card-maison-elite"
+          />
 
           <ProjectCard
             cover={retailCover}

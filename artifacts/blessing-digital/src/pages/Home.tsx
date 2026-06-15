@@ -10,11 +10,13 @@ import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import CustomCursor from '@/components/CustomCursor';
+import FloatingContact from '@/components/FloatingContact';
 
 export default function Home() {
   return (
     <main className="bg-[#1e2d52] min-h-screen text-white relative">
       <CustomCursor />
+      <FloatingContact />
       <AnimatedBackground />
       <Navigation />
       <Hero />
