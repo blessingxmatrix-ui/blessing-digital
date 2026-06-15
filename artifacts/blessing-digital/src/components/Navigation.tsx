@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logoImg from '@assets/image_1781520111903.png';
+import logoImg from '@assets/logo_transparent.png';
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,7 +32,7 @@ export default function Navigation() {
               src={logoImg}
               alt="Blessing Digital Logo"
               className="w-10 h-10 object-contain"
-              style={{ filter: 'invert(1) brightness(1.1)' }}
+              style={{ filter: 'drop-shadow(0 0 4px rgba(139,26,26,0.3))' }}
             />
           </div>
           <span className="font-serif font-semibold text-xl tracking-wide hidden sm:block">Blessing Digital</span>
