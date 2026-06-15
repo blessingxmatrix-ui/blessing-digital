@@ -27,11 +27,11 @@ export default function Navigation() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo('home')}>
-          <div className="relative w-16 h-16 flex items-center justify-center">
+          <div className="relative w-24 h-24 flex items-center justify-center">
             <img
               src={logoImg}
               alt="Blessing Digital Logo"
-              className="w-16 h-16 object-contain"
+              className="w-24 h-24 object-contain"
               style={{ filter: 'drop-shadow(0 0 6px rgba(139,26,26,0.4))' }}
             />
           </div>
