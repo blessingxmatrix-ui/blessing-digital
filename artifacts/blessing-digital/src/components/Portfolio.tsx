@@ -49,9 +49,15 @@ export default function Portfolio() {
             <p className="text-gray-300 mb-10 leading-relaxed max-w-md">
               A premium dark-mode booking experience designed to convert. We built a custom interface that matches the high-end service of the shop, integrating seamless appointment scheduling.
             </p>
-            <button className="bg-transparent border border-[#8B1A1A] text-[#8B1A1A] hover:bg-[#8B1A1A] hover:text-white px-8 py-3 rounded-sm text-sm font-medium uppercase tracking-widest transition-all duration-300" data-testid="btn-view-elite-barbers">
-              View Live Site
-            </button>
+            <a
+              href="https://blessingxmatrix-ui.github.io/Example/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-transparent border border-[#8B1A1A] text-[#8B1A1A] hover:bg-[#8B1A1A] hover:text-white px-8 py-3 rounded-sm text-sm font-medium uppercase tracking-widest transition-all duration-300"
+              data-testid="btn-view-elite-barbers"
+            >
+              View Live Site →
+            </a>
           </div>
           <div className="lg:col-span-7 order-1 lg:order-2">
             <div className="relative rounded-xl overflow-hidden shadow-2xl border border-white/5 bg-[#111] aspect-video flex items-center justify-center p-1">
