@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import Marquee from '@/components/Marquee';
 import Portfolio from '@/components/Portfolio';
 import Services from '@/components/Services';
+import HowWeWork from '@/components/HowWeWork';
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -20,6 +21,7 @@ export default function Home() {
       <Marquee />
       <Portfolio />
       <Services />
+      <HowWeWork />
       <About />
       <Contact />
       <Footer />
