@@ -139,12 +139,12 @@ function StepCard({ step, index }: { step: typeof steps[0]; index: number }) {
         </div>
 
         {/* Badge */}
-        <span className="inline-block bg-[#8B1A1A]/15 text-[#8B1A1A] border border-[#8B1A1A]/25 px-3 py-0.5 rounded-sm text-[10px] font-mono tracking-[0.2em] uppercase mb-4">
+        <span className="inline-block bg-[#8B1A1A] text-white px-3 py-1 rounded-sm text-[11px] font-mono tracking-[0.2em] uppercase mb-4 shadow-[0_0_12px_rgba(139,26,26,0.4)]">
           {step.badge}
         </span>
 
         {/* Step label */}
-        <p className="text-gray-500 font-mono text-xs tracking-widest uppercase mb-2">Step {step.number}</p>
+        <p className="text-gray-400 font-mono text-xs tracking-widest uppercase mb-2">Step {step.number}</p>
 
         {/* Title */}
         <h3 className="text-2xl font-serif font-bold text-white mb-4 group-hover:text-[#f0ece4] transition-colors duration-300">
